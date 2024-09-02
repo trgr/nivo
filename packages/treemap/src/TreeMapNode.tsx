@@ -53,7 +53,7 @@ const NonMemoizedTreeMapNode = <Datum extends object>({
                         animatedProps.labelRotation
                     )}
                 >
-                    {node.label}
+                    {node.id}
                 </animated.text>
             )}
             {showParentLabel && (

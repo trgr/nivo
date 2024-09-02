@@ -217,8 +217,8 @@ export const useTreeMap = <Datum extends object = DefaultTreeMapDatum>({
                     node.parentLabelRotation = -90
                 }
 
-                node.label = getLabel(node)
-                node.parentLabel = getParentLabel(node)
+                node.label = node.id
+                node.parentLabel = node.id
 
                 return node
             }),

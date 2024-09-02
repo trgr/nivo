@@ -35,7 +35,7 @@ export const commonDefaultProps: Omit<
     nodeOpacity: 0.33,
 
     enableLabel: true,
-    label: 'formattedValue',
+    label: 'id',
     labelSkipSize: 0,
     labelTextColor: { from: 'color', modifiers: [['darker', 1]] },
     orientLabel: true,
